@@ -1,8 +1,34 @@
+/*loader*/
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+/*loader*/
 
 /*Header*/
-$( window ).scroll(function() {
-  $( ".titles" ).css( "color", "red" );
-});
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.width = "47%";
+    document.getElementById("about").style.transition="1.5s linear";
+    document.getElementById("about_h").style.transition="1.5s linear";
+    document.getElementById("about").style.transform = "translate3d(0px, 0px, 0px)";
+    document.getElementById("about_h").style.transform = "translate3d(0px, 0px, 0px)";
+  } else {
+    document.getElementById("header").style.width = "99%";
+    document.getElementById("about").style.transform = "translate3d(-200px, 0px, 0px)";
+    document.getElementById("about_h").style.transform = "translate3d(0px, -200px, 0px)";
+  }
+}
 /*Header*/
 
 /*Menu*/
