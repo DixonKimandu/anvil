@@ -9,8 +9,6 @@ html{
   height: 100vh;
 }
 body{
-  /height: calc(100vh - 8em);
-  /padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;
   background-color: rgb(25,25,25);
@@ -121,6 +119,25 @@ a{
     }
 }
 
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
 /*Loader*/
 
 /*Header*/
@@ -145,13 +162,13 @@ padding-top: 100px;
 
 @keyframes float {
   0%,100%{
-    transform: rotate(-45deg)translate(0,0);
+    transform: rotate(-45deg)translate(-60px,60px);
   }
   50%{
     border: solid #0ddb1b;
     border-width: 0 0 1px 1px;
     display: inline-block;
-    transform: rotate(-45deg)translate(-10px,10px);
+    transform: rotate(-45deg)translate(-80px,80px);
   }
 }
 
@@ -161,7 +178,7 @@ padding-top: 100px;
 }
 
 .scroll{
-  
+
 }
 
 .line-1{
@@ -194,16 +211,18 @@ padding-top: 100px;
 }
 
 @media screen and (max-width: 600px) {
-
+  header{
+    height: 100%;
+  }
   .line-1{
     position: relative;
-    top:20%;
+    margin-top:60%;
     font-size: 2.5em;
     letter-spacing: 0.1em;
   }
 
   .arrow,.down{
-    margin-top: 50%;
+    margin-top: 25%;
   }
   .anim-typewriter{
     animation: typewriter 4s steps(8) 1s 1 normal both,
@@ -414,10 +433,9 @@ padding-top: 100px;
   transition: 1.5s;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 1.0);
   z-index:9;
-  /overflow: hidden;
 }
 #back{
-  background: linear-gradient(to bottom right,#0ddb89, #0ddb1b);
+  background: linear-gradient(to bottom right, #0ddb1b,#0ddb89);
   text-align:center;
   font-weight: bold;
   padding: 20px;
@@ -434,8 +452,7 @@ padding-top: 100px;
 
 @media screen and (max-width: 600px) {
   #header {
-    width: 97%;
-    height: 100%;
+    width: 100%;
   }
   #back{
     background: linear-gradient(to bottom right,#0ddb89, #0ddb1b);
@@ -449,7 +466,6 @@ padding-top: 100px;
     margin-left: 15%;
     margin-top:43%;
     margin-bottom: 200px;
-    /overflow: hidden;
   }
 }
 /*About*/
@@ -468,7 +484,6 @@ padding-top: 100px;
 
 i.fa {
   color: #fff;
-  /transform: scale(3,3);
   margin: 20px;
 }
 
@@ -554,7 +569,6 @@ i.fa {
   margin: 0% 1.33% 2.66% 1.33%;
   padding: 50px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-  /border: solid 1px #0ddb1b;
   border-radius: 20px;
 }
 
@@ -583,7 +597,6 @@ i.fa {
 }
 
 .subject .icon i {
-  /background: #c0392b;
   border: 1px solid #0ddb1b;
   padding: 5px;
   animation: animate 10s linear infinite;
@@ -610,7 +623,7 @@ i.fa {
 
 /*media queries for small devices*/
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 620px) {
   .main-container {
     margin: 20px 15px;
   }
@@ -626,6 +639,9 @@ i.fa {
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
+  }
+  .expertise h1{
+    margin-top: 650px;
   }
 }
 /*Expertise*/
@@ -649,7 +665,6 @@ i.fa {
 
 i.fa {
   color: #fff;
-  /transform: scale(3,3);
   margin: 20px;
 }
 
@@ -701,7 +716,6 @@ i.fa {
 
 .animation-p:nth-of-type(3n-1) {
   width: 47.25%;
-  /margin: 0% 2.0625% 4.125% 0.6875%;
   margin: 0% 0.6875% 4.125% 2.0625%;
   clear: right;
 }
@@ -775,7 +789,6 @@ i.fa {
   /box-shadow: 0px 4px 13px 0px #0ddb1b;
   /transition: .5s ease;
 }
-
 /*hovering over subject*/
 .ports .title {
   margin: 12px 0px;
@@ -784,7 +797,6 @@ i.fa {
 }
 
 .port .content {
-  /margin-bottom: 8px;
   color: #0ddb1b;
 }
 
@@ -828,6 +840,9 @@ i.fa {
     margin: 0;
     padding: 0;
   }
+  #portfolio h1{
+    top:15em;
+  }
   .port{
     text-align: center;
     height: 500px;
@@ -857,7 +872,6 @@ i.fa {
 
   }
   .overlay{
-    /position: absolute;
     top: 0;
     right: 0;
     height: 500px;
@@ -886,7 +900,6 @@ i.fa {
 
 /*Footer Start*/
 .footer-wrapper{
-  /margin: 0 auto;
   padding: 0;
   width: 100%;
 }
@@ -896,7 +909,6 @@ i.fa {
   float: left;
   padding: 15px;
   text-align: left;
-  color: #16dec3;
 }
 
 .single-footer ul{
@@ -917,21 +929,22 @@ i.fa {
 }
 
 footer{
-  margin-top: 60%;
+  margin-top: 50%;
   padding: 10px;
   width: 99%;
   height: 250px;
   position: absolute;
   z-index: -1;
+  color: #16dec3;
   background: #191c1a;
 }
 
 @media screen and (max-width: 600px) {
   footer {
-    position: absolute;
-    margin-top: 3400px;
+    /position: absolute;
+    margin-top: 2100px;
     width: 100%;
-    height: 100%;
+    height: 500px;
   }
   .footer-wrapper{
     padding: 0;
