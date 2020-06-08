@@ -23,8 +23,8 @@ function scrollFunction() {
     document.getElementById("about_h").style.transition="1.5s linear";
     document.getElementById("about").style.transform = "translate3d(0px, 0px, 0px)";
     document.getElementById("about_h").style.transform = "translate3d(0px, 0px, 0px)";
-  } else {
-    document.getElementById("header").style.width = "99%";
+    } else {
+    document.getElementById("header").style.width = "100%";
     document.getElementById("about").style.transform = "translate3d(-200px, 0px, 0px)";
     document.getElementById("about_h").style.transform = "translate3d(0px, -200px, 0px)";
   }
@@ -80,7 +80,7 @@ $(document).ready(function(){
 });
 /*Smooth Scrolling*/
 
-/*About*/
+/*Expertise*/
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 
@@ -107,7 +107,7 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
-/*About*/
+/*Expertise*/
 
 /*Portfolio*/
 var $animation_ps = $('.animation-p');
