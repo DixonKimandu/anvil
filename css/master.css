@@ -701,29 +701,46 @@ i.fa {
   float: left;
 }
 /*2 grid layout*/
+.animation-p:nth-of-type(3n-6) {
+  width: 47.25%;
+  margin: 0% 0.6875% 4.125% 2.0625%;
+  float: left;
+}
+
+.animation-p:nth-of-type(3n-5) {
+  width: 47.25%;
+  margin: 0% 0.6875% 4.125% 2.0625%;
+  float: left;
+}
+
+.animation-p:nth-of-type(3n-4) {
+  width: 47.25%;
+  margin: 0% 0.6875% 4.125% 2.0625%;
+  float: left;
+}
 
 .animation-p:nth-of-type(3n-3) {
   width: 47.25%;
-  margin: 0% 2.0625% 4.125% 0.6875%;
-  clear: right;
+  margin: 0% 0.6875% 4.125% 2.0625%;
+  float: left;
 }
 
 .animation-p:nth-of-type(3n-2) {
   width: 47.25%;
   margin: 0% 0.6875% 4.125% 2.0625%;
-  clear: right;
+  float: left;
 }
 
 .animation-p:nth-of-type(3n-1) {
   width: 47.25%;
   margin: 0% 0.6875% 4.125% 2.0625%;
-  clear: right;
+  float: left;
 }
 
 .animation-p:nth-of-type(3n-0) {
   width: 47.25%;
   margin: 0% 0.6875% 4.125% 2.0625%;
-  clear: left;
+  float: left;
 }
 
 /*bounce up animation for the subject*/
@@ -765,7 +782,7 @@ i.fa {
 }
 
 #p1{
-  background-image: url(../img/img1.png);
+  background-image: url(../img/img13.png);
 
 }
 
@@ -775,12 +792,22 @@ i.fa {
 }
 
 #p3{
-  background-image: url(../img/img4.png);
+  background-image: url(../img/img10.png);
 
 }
 
 #p4{
   background-image: url(../img/img5.png);
+
+}
+
+#p5{
+  background-image: url(../img/img7.png);
+
+}
+
+#p6{
+  background-image: url(../img/img12.png);
 
 }
 
@@ -791,9 +818,18 @@ i.fa {
 }
 /*hovering over subject*/
 .ports .title {
-  margin: 12px 0px;
+  margin: 7px 0px;
   border-bottom: dashed 1px #ccc;
   padding-bottom: 10px;
+}
+
+.port i{
+
+  transform: translate(280px,-150px);
+}
+
+#i2{
+  transform: translate(280px,-180px);
 }
 
 .port .content {
@@ -814,7 +850,7 @@ i.fa {
 
 .content-o{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 25%;
     width: 300px;
     height: 150px;
@@ -832,6 +868,9 @@ i.fa {
 @media screen and (max-width: 600px) {
 
   .animation-p,
+  .animation-p:nth-of-type(3n-6),
+  .animation-p:nth-of-type(3n-5),
+  .animation-p:nth-of-type(3n-4),
   .animation-p:nth-of-type(3n-3),
   .animation-p:nth-of-type(3n-2),
   .animation-p:nth-of-type(3n-1),
@@ -853,7 +892,7 @@ i.fa {
     /background-position: left 75%;
   }
   #p1{
-    background-image: url(../img/mimg1.png);
+    background-image: url(../img/mimg8.png);
 
   }
 
@@ -863,12 +902,22 @@ i.fa {
   }
 
   #p3{
-    background-image: url(../img/mimg4.png);
+    background-image: url(../img/mimg13.png);
 
   }
 
   #p4{
     background-image: url(../img/mimg5.png);
+
+  }
+
+  #p5{
+    background-image: url(../img/mimg7.png);
+
+  }
+
+  #p6{
+    background-image: url(../img/mimg6.png);
 
   }
   .overlay{
@@ -911,6 +960,12 @@ i.fa {
   text-align: left;
 }
 
+.single-footer #logo{
+   height:50px;
+   width:50px;
+  border-radius: 50%;
+}
+
 .single-footer ul{
   margin: 0;
   padding: 0;
@@ -929,14 +984,13 @@ i.fa {
 }
 
 footer{
-  margin-top: 50%;
+  margin-top: 80%;
   padding: 10px;
   width: 99%;
   height: 250px;
   position: absolute;
   z-index: -1;
   color: #16dec3;
-  background: #191c1a;
 }
 
 @media screen and (max-width: 600px) {
