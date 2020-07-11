@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anvil</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
@@ -35,8 +36,8 @@
     <section id="home">
     <header>
       <div  id="header">
-        <h2 class="line-1 anim-typewriter">	&ltAnvil\&gt</h2>
-        <a href="#back"><p class="scroll"><i class="arrow down"></i><br><br><br><br>Scroll Down</p></a>
+        <h2 id="anvil" class="line-1 anim-typewriter">	&ltAnvil\&gt</h2>
+        <i class="arrow down"></i><br><br><br><br><a href="#back"><p id="scrollp">Scroll Down</p></a>
       </div>
     </header>
     <div id="back" style="margin-bottom:15%;">
@@ -50,38 +51,36 @@
     </section>
     <!--Header-->
 
+
     <!--Expertise Start-->
     <section id="expertise">
     <div class="expertise">
       <div style=" margin-top:50%;margin-bottom:5%;">
-      <h1>Expertise</h1>
+      <h1>Services</h1>
       <div class="animation-element bounce-up">
         <div class="subject">
-          <div class="icon"><i class="fa fa-cogs"></i></div>
-          <h3 class="title">Development</h3>
+          <div class="icon"><i class="fa fa-desktop"></i></div>
+          <h3 class="title">Websites</h3>
           <div class="content">
-            We create innovative projects that change and greatly improve our clients organizations to help them
-            achieve their goals.
+            Responsive, mobile first, interactive websites for a variety of uses in different industries.
           </div>
       </div>
       </div>
       <div class="animation-element bounce-up">
         <div class="subject">
-          <div class="icon"><i class="fa fa-pencil"></i></div>
-          <h3 class="title">Design </h3>
+          <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+          <h3 class="title">Ecommerce </h3>
           <div class="content">
-            Intuitive design is our top priority. We create products that utilize great design as performance
-            feature.
+            Online stores to engage with and sell to your customers with great ease and convenience.
           </div>
       </div>
       </div>
       <div class="animation-element bounce-up">
         <div class="subject">
-          <div class="icon"><i class="fa fa-camera"></i></div>
-          <h3 class="title">Marketing</h3>
+          <div class="icon"><i class="fa fa-mobile"></i></div>
+          <h3 class="title">Web Apps</h3>
           <div class="content">
-            We aim to ensure our client's products are at the forefront and the top of the competition in their various
-            industries.
+            Intuitive websites to gain more from users through convenient application like features.
           </div>
       </div>
     </div>
@@ -90,17 +89,18 @@
     </section>
     <!--Expertise End-->
 
-    <!--Portfolio-->
+    <!--Projects-->
     <section id="portfolio">
       <div class="portfolio">
           <div style=" margin-top:5%;">
-            <h1>Portfolio</h1>
+            <h1>Projects</h1>
            <div class="animation-p bounce-up2">
              <div id="p1" class="port">
+               <a href="https://www.quickfixtyres.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
                <div class="overlay">
                  <div class="content-o">
-                   <h3 class="title">Landing Page</h3>
-                   <p>Vanilla JS/HTML/CSS</p>
+                   <h3 class="title">Ecommerce Site</h3>
+                   <p>Prestashop/Vanilla JS/HTML/PHP</p>
                  </div>
                </div>
              </div>
@@ -108,6 +108,8 @@
 
            <div class="animation-p bounce-up2">
              <div id="p2" class="port">
+               <a href="https://dixonkimandu.github.io/Photography-website/" target="_blank"><img src="img/link.svg" alt=""></a>
+               <a href="https://github.com/DixonKimandu/Photography-website" target="_blank"><img src="img/github.svg" alt=""></a>
                <div class="overlay">
                  <div class="content-o">
                    <h3 class="title">Photography Website</h3>
@@ -119,9 +121,10 @@
 
            <div class="animation-p bounce-up2">
              <div id="p3" class="port">
+               <a href="http://ecodin.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
                <div class="overlay">
                  <div class="content-o">
-                   <h3 class="title">Flame Loading Icon</h3>
+                   <h3 class="title">Landing Page</h3>
                    <p>Vanilla JS/HTML/CSS</p>
                  </div>
                </div>
@@ -130,42 +133,68 @@
 
           <div class="animation-p bounce-up2">
             <div id="p4"class="port">
+              <a href="https://dixonkimandu.github.io/Glitchin/" target="_blank"><img src="img/link.svg" alt=""></a>
+              <a href="https://github.com/DixonKimandu/Glitchin" target="_blank"><img src="img/github.svg" alt=""></a>
               <div class="overlay">
                 <div class="content-o">
-                  <h3 class="title">Art Website</h3>
+                  <h3 class="title">Glitch Effect</h3>
                   <p>Vanilla JS/HTML/CSS</p>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="animation-p bounce-up2">
+            <div id="p5"class="port">
+              <a href="http://optimalprotect.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
+              <div class="overlay">
+                <div class="content-o">
+                  <h3 class="title">Landing Page</h3>
+                  <p>Vanilla JS/HTML/CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="animation-p bounce-up2">
+            <div id="p6"class="port">
+              <a href="https://nzige-a8cae.web.app/" target="_blank"><img src="img/link.svg" alt=""></a>
+              <a href="#" target="_blank"><img src="img/github.svg" alt=""></a>
+              <div class="overlay">
+                <div class="content-o">
+                  <h3 class="title">Web App</h3>
+                  <p>Node JS/Firebase/TensorFlow</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </div>
     </section>
-    <!--Portfolio-->
+    <!--Projects-->
 
     <!--Footer-->
     <section class="footer">
         <footer>
           <div class="footer-wrapper">
             <div class="single-footer">
-              <h2>Address</h2>
+              <h2>Contact Us</h2>
               <p>Nairobi, Kenya<br><br>
-                +254 700 000 000<br><br>
-                PO Box 0100 0000<br><br>
+                254.anvil@gmail.com<br><br>
               </p>
             </div>
             <div class="single-footer">
-              <img src="img/logo.jpg" alt="" height="70px" width="80px">
+              <img id="logo" src="img/logo.jpg" alt="">
             </div>
             <div class="single-footer">
-              <h2>Social Media</h2>
-              <ul>
-                <li><a href="https://www.facebook.com/" target="_blank"><img src="img/036-facebook.png" alt="" height="20px" width="20px"></a></li><br>
-                <li><a href="https://www.twitter.com/" target="_blank"><img src="img/008-twitter.png" alt="" height="20px" width="20px"></a></li><br>
-                <li><a href="https://www.instagram.com/" target="_blank"><img src="img/029-instagram.png" alt="" height="20px" width="20px"></a></li><br>
-                <li><a href="https://www.youtube.com/" target="_blank"><img src="img/001-youtube.png" alt="" height="20px" width="20px"></a></li>
-              </ul>
+              <h2>Find Us</h2>
+
+                <a href="https://www.facebook.com/anvil_254" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/anvil_254" target="_blank">Twitter</a>
             </div>
-          </div>
+          </div><!--br><br><br><br><br><br><br><br><br><br><br><br-->
+          <p style="text-align: center; margin-top:17%;">Made by Anvil Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
+
         </footer>
     </section>
     <!--Footer-->
@@ -175,8 +204,8 @@
       <div class="menu">
         <span class="menuItem" data="HOME"><a href="#home">HOME</a></span>
         <span class="menuItem" data="ABOUT"><a href="#about">ABOUT</a></span>
+        <span class="menuItem" data="EXPERTISE"><a href="#expertise">EXPERTISE</a></span>
         <span class="menuItem" data="PORTFOLIO"><a href="#portfolio">PORTFOLIO</a></span>
-        <span class="menuItem" data="PROJECTS"><a href="#projects">PROJECTS</a></span>
       </div>
       <!--Menu Items-->
 
