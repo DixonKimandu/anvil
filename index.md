@@ -99,7 +99,7 @@
                <a href="https://www.quickfixtyres.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
                <div class="overlay">
                  <div class="content-o">
-                   <h3 class="title">Ecommerce Site</h3>
+                   <a href="https://www.quickfixtyres.co.ke/" target="_blank"><h3 class="title">Ecommerce Site</h3></a>
                    <p>Prestashop/Vanilla JS/HTML/PHP</p>
                  </div>
                </div>
@@ -112,7 +112,7 @@
                <a href="https://github.com/DixonKimandu/Photography-website" target="_blank"><img src="img/github.svg" alt=""></a>
                <div class="overlay">
                  <div class="content-o">
-                   <h3 class="title">Photography Website</h3>
+                   <a href="https://dixonkimandu.github.io/Photography-website/" target="_blank"><h3 class="title">Photography Website</h3></a>
                    <p>Vanilla JS/HTML/CSS</p>
                  </div>
                </div>
@@ -124,7 +124,7 @@
                <a href="http://ecodin.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
                <div class="overlay">
                  <div class="content-o">
-                   <h3 class="title">Landing Page</h3>
+                   <a href="http://ecodin.co.ke/" target="_blank"><h3 class="title">Landing Page</h3></a>
                    <p>Vanilla JS/HTML/CSS</p>
                  </div>
                </div>
@@ -137,7 +137,7 @@
               <a href="https://github.com/DixonKimandu/Glitchin" target="_blank"><img src="img/github.svg" alt=""></a>
               <div class="overlay">
                 <div class="content-o">
-                  <h3 class="title">Glitch Effect</h3>
+                  <a href="https://dixonkimandu.github.io/Glitchin/" target="_blank"><h3 class="title">Glitch Effect</h3></a>
                   <p>Vanilla JS/HTML/CSS</p>
                 </div>
               </div>
@@ -149,7 +149,7 @@
               <a href="http://optimalprotect.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
               <div class="overlay">
                 <div class="content-o">
-                  <h3 class="title">Landing Page</h3>
+                  <a href="http://optimalprotect.co.ke/" target="_blank"><h3 class="title">Landing Page</h3></a>
                   <p>Vanilla JS/HTML/CSS</p>
                 </div>
               </div>
@@ -162,7 +162,7 @@
               <a href="#" target="_blank"><img src="img/github.svg" alt=""></a>
               <div class="overlay">
                 <div class="content-o">
-                  <h3 class="title">Web App</h3>
+                  <a href="https://nzige-a8cae.web.app/" target="_blank"><h3 class="title">Web App</h3></a>
                   <p>Node JS/Firebase/TensorFlow</p>
                 </div>
               </div>
@@ -204,7 +204,7 @@
       <div class="menu">
         <span class="menuItem" data="HOME"><a href="#home">HOME</a></span>
         <span class="menuItem" data="ABOUT"><a href="#about">ABOUT</a></span>
-        <span class="menuItem" data="EXPERTISE"><a href="#expertise">EXPERTISE</a></span>
+        <span class="menuItem" data="EXPERTISE"><a href="#expertise">SERVICES</a></span>
         <span class="menuItem" data="PORTFOLIO"><a href="#portfolio">PORTFOLIO</a></span>
       </div>
       <!--Menu Items-->
