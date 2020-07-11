@@ -854,7 +854,7 @@ i.fa {
 
 .content-o{
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 25%;
     width: 300px;
     height: 150px;
@@ -867,7 +867,7 @@ i.fa {
   opacity: 0.4;
 }
 
-.port:hover a img{
+.port:hover .content-o{
   opacity: 1;
 }
 
