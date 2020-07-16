@@ -138,6 +138,15 @@ a{
   to{ bottom:0; opacity:1 }
 }
 
+@media screen and (max-width: 600px) {
+  #loader{
+    left: 53%;
+    top: 50%;
+    width: 125px;
+    height: 125px;
+  }
+}
+
 /*Loader*/
 
 /*Header*/
@@ -222,7 +231,7 @@ padding-top: 100px;
   }
 
   .arrow,.down{
-    margin-top: 25%;
+    margin-top: 23%;
   }
   .anim-typewriter{
     animation: typewriter 4s steps(8) 1s 1 normal both,
@@ -453,6 +462,7 @@ padding-top: 100px;
 @media screen and (max-width: 600px) {
   #header {
     width: 100%;
+    /height: 90%;
   }
   #back{
     background: linear-gradient(to bottom right,#0ddb89, #0ddb1b);
@@ -461,7 +471,7 @@ padding-top: 100px;
     padding: 5px;
     padding-bottom: 10%;
     width: 50%;
-    height: 80%;
+    height: 70%;
     float: right;
     margin-left: 15%;
     margin-top:43%;
@@ -864,11 +874,12 @@ i.fa {
 }
 
 .port:hover .overlay{
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 .port:hover .content-o{
   opacity: 1;
+  z-index: 99;
 }
 
 /*media queries for small devices*/
@@ -940,7 +951,7 @@ i.fa {
 
   .content-o{
       position: absolute;
-      top: 60%;
+      top: 80%;
       left: 0;
       width: 300px;
       height: 150px;
@@ -950,7 +961,7 @@ i.fa {
   }
 
   .port:hover .overlay{
-    opacity: 0.4;
+    opacity: 0.5;
   }
 }
 /*Portfolio*/
