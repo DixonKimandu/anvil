@@ -180,6 +180,8 @@
             <div class="single-footer">
               <h2>Contact Us</h2>
               <p>Nairobi, Kenya<br><br>
+                +254719582599<br><br>
+                +254705184745<br><br>
                 254.anvil@gmail.com<br><br>
               </p>
             </div>
