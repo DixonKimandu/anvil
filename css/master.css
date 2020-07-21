@@ -138,7 +138,7 @@ a{
   to{ bottom:0; opacity:1 }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #loader{
     left: 53%;
     top: 50%;
@@ -219,7 +219,7 @@ padding-top: 100px;
   to{border-right-color: transparent;}
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   header{
     height: 100%;
   }
@@ -406,7 +406,7 @@ padding-top: 100px;
     100%{clip:rect(17px,9999px,79px,0);}
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .main, .menu {
     width: 70%;
   }
@@ -459,7 +459,7 @@ padding-top: 100px;
 
 /*media queries for small devices*/
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #header {
     width: 100%;
     /height: 90%;
@@ -633,7 +633,7 @@ i.fa {
 
 /*media queries for small devices*/
 
-@media screen and (max-width: 620px) {
+@media only screen and (max-width: 620px) {
   .main-container {
     margin: 20px 15px;
   }
@@ -884,7 +884,7 @@ i.fa {
 
 /*media queries for small devices*/
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
   .animation-p,
   .animation-p:nth-of-type(3n-6),
@@ -1008,11 +1008,12 @@ footer{
   width: 99%;
   height: 250px;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
+  text-align: center;
   color: #16dec3;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   footer {
     /position: absolute;
     margin-top: 3300px;
@@ -1026,7 +1027,7 @@ footer{
   .single-footer{
     width: 100%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 5px;
     text-align: left;
   }
