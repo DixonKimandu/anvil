@@ -190,10 +190,10 @@
               <h2>Find Us</h2>
 
                 <a href="https://www.facebook.com/anvil_254" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/anvil_254" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/anvil_254" target="_blank">Instagram</a>
             </div>
           </div><!--br><br><br><br><br><br><br><br><br><br><br><br-->
-          <p style="text-align: center; margin-top:17%;">Made by Anvil Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
+          <p style="text-align: center; margin-top:17%; margin-right: 40%;">Made by Anvil Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
 
         </footer>
     </section>
