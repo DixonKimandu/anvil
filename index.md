@@ -201,7 +201,7 @@
       <div class="menu">
         <span class="menuItem" data="HOME"><a href="#home">HOME</a></span>
         <span class="menuItem" data="ABOUT"><a href="#about">ABOUT</a></span>
-        <span class="menuItem" data="EXPERTISE"><a href="#expertise">SERVICES</a></span>
+        <span class="menuItem" data="EXPERTISE"><a href="#expertise">EXPERTISE</a></span>
         <span class="menuItem" data="PORTFOLIO"><a href="#portfolio">PORTFOLIO</a></span>
       </div>
       <!--Menu Items-->
