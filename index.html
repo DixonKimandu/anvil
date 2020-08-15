@@ -2,9 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quality web development and design.">
+    <meta name="keywords" content=" anvil, website, web-design, web-development, portfolio">
+    <meta name=”robots” content="index, follow">
     <title>Anvil</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="icon" href="img/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
