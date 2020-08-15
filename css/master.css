@@ -186,8 +186,23 @@ padding-top: 100px;
   -webkit-transform: rotate(45deg);
 }
 
-.scroll{
+.desc{
+  padding: 0em;
+}
 
+.grad{
+  background: radial-gradient(
+    hsl(180 100% 60%),
+    hsl(200 100% 60%)
+    )fixed;
+  background: conic-gradient(
+    hsl(120 100% 60%),
+    hsl(150 100% 60%),
+    hsl(120 100% 60%)
+    )fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /text-align: center;
 }
 
 .line-1{
