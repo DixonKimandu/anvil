@@ -389,12 +389,34 @@ padding-top: 100px;
 }
 .menuItem:hover:before{
     left: 8px;
-    background-color: #4e3273;
+    background: radial-gradient(
+      hsl(180 100% 60%),
+      hsl(200 100% 60%)
+      )fixed;
+    background: conic-gradient(
+      hsl(120 100% 60%),
+      hsl(150 100% 60%),
+      hsl(120 100% 60%)
+      )fixed;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /text-align: center;
     animation: effect 3s infinite linear;
 }
 .menuItem:hover:after{
     left: 4px;
-    background-color: #4e3273;
+    background: radial-gradient(
+      hsl(180 100% 60%),
+      hsl(200 100% 60%)
+      )fixed;
+    background: conic-gradient(
+      hsl(120 100% 60%),
+      hsl(150 100% 60%),
+      hsl(120 100% 60%)
+      )fixed;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /text-align: center;
     animation: effect 2s infinite linear;
 }
 @-webkit-keyframes effect{
