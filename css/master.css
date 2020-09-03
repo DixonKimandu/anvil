@@ -241,7 +241,7 @@ padding-top: 100px;
   .line-1{
     position: relative;
     margin-top:60%;
-    font-size: 2.5em;
+    font-size: 2.8em;
     letter-spacing: 0.1em;
   }
 
@@ -508,11 +508,11 @@ padding-top: 100px;
     padding: 5px;
     padding-bottom: 10%;
     width: 50%;
-    height: 70%;
+    height: 50%;
     float: right;
     margin-left: 15%;
     margin-top:43%;
-    margin-bottom: 200px;
+    margin-bottom: 130px;
   }
 }
 /*About*/
@@ -829,7 +829,7 @@ i.fa {
 }
 
 #p1{
-  background-image: url(../img/img13.png);
+  background-image: url(../img/img14.png);
 
 }
 
@@ -948,7 +948,7 @@ i.fa {
     /background-position: left 75%;
   }
   #p1{
-    background-image: url(../img/mimg8.png);
+    background-image: url(../img/mimg14.png);
 
   }
 
