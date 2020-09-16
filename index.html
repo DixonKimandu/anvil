@@ -190,7 +190,7 @@
             <div class="single-footer">
               <h2>Find Us</h2>
                 <a href="https://m.facebook.com/anvil254/" target="_blank"><p>Facebook</p></a>
-                <a href="https://www.instagram.com/anvil_254/" target="_blank"><p>Instagram</p></a>
+                <a href="https://www.instagram.com/anvil_web_design/" target="_blank"><p>Instagram</p></a>
             </div>
           </div><!--br><br><br><br><br><br><br><br><br><br><br><br-->
           <p style="text-align: center; margin-top:17%;margin-right: 40%;">Made by Anvil Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
