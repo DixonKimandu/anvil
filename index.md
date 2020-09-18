@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Quality web development and design.">
-    <meta name="keywords" content=" anvil, website, web-design, web-development, portfolio">
+    <meta name="description" content="Anvil web development is an organisation that deals in the design and development of professional and ecommerce websites for various businesses. We also provide SEO and Social Media Marketing.">
+    <meta name="keywords" content=" anvil, websites, web, design, development, SEO, Social, Media, Marketing, businesses">
     <meta name=”robots” content="index, follow">
-    <title>Anvil</title>
+    <title>Anvil Web Development</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,7 +21,8 @@
     </div>
     <!--Loader Start-->
 
-    <section style="display:none;" id="myDiv" class="animate-bottom">
+    <section style="display:none;" id="myDiv" class="an
+    ate-bottom">
     <!--Menu-->
     <div class="menuIcon">
       <div class="open">
@@ -100,19 +102,19 @@
             <h1 class="grad">Projects</h1>
            <div class="animation-p bounce-up2">
              <div id="p1" class="port">
-               <a href="https://www.quickfixtyres.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
+               <a href="https://www.trademix.co.ke/" target="_blank">
                <div class="overlay"></div>
                <div class="content-o">
                  <a href="https://www.quickfixtyres.co.ke/" target="_blank"><h3 class="title">Ecommerce Site</h3></a>
-                 <p>Prestashop/Vanilla JS/HTML/PHP</p>
+                 <p>OpenCart/Vanilla JS/HTML/PHP</p>
                </div>
              </div>
            </div>
 
            <div class="animation-p bounce-up2">
              <div id="p2" class="port">
-               <a href="https://dixonkimandu.github.io/Photography-website/" target="_blank"><img src="img/link.svg" alt=""></a>
-               <a href="https://github.com/DixonKimandu/Photography-website" target="_blank"><img src="img/github.svg" alt=""></a>
+               <a href="https://dixonkimandu.github.io/Photography-website/" target="_blank">
+               <a href="https://github.com/DixonKimandu/Photography-website" target="_blank">
                <div class="overlay"></div>
                <div class="content-o">
                  <a href="https://dixonkimandu.github.io/Photography-website/" target="_blank"><h3 class="title">Photography Website</h3></a>
@@ -123,7 +125,7 @@
 
            <div class="animation-p bounce-up2">
              <div id="p3" class="port">
-               <a href="http://ecodin.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
+               <a href="http://ecodin.co.ke/" target="_blank">
                <div class="overlay"></div>
                <div class="content-o">
                  <a href="http://ecodin.co.ke/" target="_blank"><h3 class="title">Landing Page</h3></a>
@@ -134,8 +136,8 @@
 
           <div class="animation-p bounce-up2">
             <div id="p4"class="port">
-              <a href="https://dixonkimandu.github.io/Glitchin/" target="_blank"><img src="img/link.svg" alt=""></a>
-              <a href="https://github.com/DixonKimandu/Glitchin" target="_blank"><img src="img/github.svg" alt=""></a>
+              <a href="https://dixonkimandu.github.io/Glitchin/" target="_blank">
+              <a href="https://github.com/DixonKimandu/Glitchin" target="_blank">
               <div class="overlay"></div>
               <div class="content-o">
                 <a href="https://dixonkimandu.github.io/Glitchin/" target="_blank"><h3 class="title">Glitch Effect</h3></a>
@@ -146,7 +148,7 @@
 
           <div class="animation-p bounce-up2">
             <div id="p5"class="port">
-              <a href="http://optimalprotect.co.ke/" target="_blank"><img src="img/link.svg" alt=""></a>
+              <a href="http://optimalprotect.co.ke/" target="_blank">
               <div class="overlay"></div>
               <div class="content-o">
                 <a href="http://optimalprotect.co.ke/" target="_blank"><h3 class="title">Landing Page</h3></a>
@@ -157,8 +159,8 @@
 
           <div class="animation-p bounce-up2">
             <div id="p6"class="port">
-              <a href="https://nzige-a8cae.web.app/" target="_blank"><img src="img/link.svg" alt=""></a>
-              <a href="#" target="_blank"><img src="img/github.svg" alt=""></a>
+              <a href="https://nzige-a8cae.web.app/" target="_blank">
+              <a href="#" target="_blank">
               <div class="overlay"></div>
               <div class="content-o">
                 <a href="https://nzige-a8cae.web.app/" target="_blank"><h3 class="title">Web App</h3></a>
@@ -180,12 +182,12 @@
               <p>Nairobi, Kenya<br><br>
                 +254719582599<br><br>
                 +254705184745<br><br>
-                254.anvil@gmail.com
+                info@anvil.co.ke
                 <br>
               </p>
             </div>
             <div class="single-footer">
-              <img id="logo" src="img/logo.jpg" alt="">
+              <img id="logo" src="img/logo.jpg" alt="Logo">
             </div>
             <div class="single-footer">
               <h2>Find Us</h2>
@@ -193,7 +195,7 @@
                 <a href="https://www.instagram.com/anvil_web_design/" target="_blank"><p>Instagram</p></a>
             </div>
           </div><!--br><br><br><br><br><br><br><br><br><br><br><br-->
-          <p style="text-align: center; margin-top:17%;margin-right: 40%;">Made by Anvil Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
+          <p style="text-align: center; margin-top:17%;margin-right: 40%;">Made by Anvil Web Development Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
           <br>
         </footer>
     </section>
