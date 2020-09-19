@@ -475,7 +475,7 @@ padding-top: 120px;
   background-color: rgb(25,25,25);
   position: absolute;
   top: 0;
-  max-width: 98%;
+  max-width: 99%;
   transition: 1.5s;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 1.0);
   z-index:9;
